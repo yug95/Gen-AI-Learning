@@ -10,8 +10,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 import asyncio
 
-# key is changed do not try this 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCt8ErmkHOQ5fg7Q2bp_2LmiUQeHPSOOoI"
+
+os.environ["GOOGLE_API_KEY"] = "api_key"
 model = GoogleGenerativeAI(model = "gemini-1.5-flash",)
 
 
