@@ -83,5 +83,4 @@ distance_query_5 = np.linalg.norm(np.array([query_vector]) - np.array([response_
 print(f"{distance_query_1} \n{distance_query_5}")
 
 
-for i, doc in enumerate(response):
-  print(f"{i+1}: {doc.page_content}")
+print(response)
