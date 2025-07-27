@@ -1,0 +1,21 @@
+Vector Database & Semantic Search Notes
+Source: https://youtu.be/kS9DazKNX-Y?si=dCkq4X7E-ihpvmuo
+
+Embedding Models
+-> Embedding models convert the source (text, images, video) to vectors without losing their semantic meaning
+
+Vector Similarity Measurement
+-> Euclidean distance is used to measure similarity between vectors in a vector space
+-> The shorter the distance, the more the similarity
+
+Performance Optimization with ANN
+-> To improve the performance of the search, we can use ANN (Approximate Nearest Neighbor)
+-- In ANN: performance increases, accuracy decreases
+
+
+HNSW Algorithm
+-> HNSW (Hierarchical Navigable Small World) is a type of ANN
+-- In HNSW: vectors are arranged in graphs where the bottom nodes contain all the vectors
+
+Analogy: To find a house, first find the city (top node), then neighborhood, then the street, then the house (bottom node)
+
