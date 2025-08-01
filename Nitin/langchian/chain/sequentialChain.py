@@ -15,7 +15,7 @@ parser =StrOutputParser()
 prompt1 = PromptTemplate(template="generate intersiting fact about {topic}")
 chain1 =  prompt1 | model | parser
 
-prompt2 = PromptTemplate(template="create a intersiting tweet using this {facts} with relevent hastages")
+prompt2 = PromptTemplate(template="create a intersitingc tweet using this {facts} with relevent hastages")
 chain2 = prompt2 | model
 
 sequencial_chain = {"facts" :chain1} | chain2 | parser
@@ -26,3 +26,4 @@ try:
 
 except Exception as e:
   print(f"error : {e}")
+   
